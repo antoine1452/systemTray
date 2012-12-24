@@ -2,7 +2,7 @@ HEADERS       = window.h
 SOURCES       = main.cpp \
                 window.cpp
 RESOURCES     = systray.qrc
-QT           += xml svg
+QT           += widgets xml svg
 
 # install
 target.path = $$[QT_INSTALL_EXAMPLES]/desktop/systray
