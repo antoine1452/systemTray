@@ -1,0 +1,10 @@
+# Qt per-platform settings
+*.pro.user
+
+# Makefiles
+Makefile*
+
+# Compiled binaries
+debug/*
+release/*
+
