@@ -57,6 +57,9 @@ int main(int argc, char *argv[])
     QApplication::setQuitOnLastWindowClosed(false);
 
     Window window;
-    window.show();
+
+    // Don't show the window on startup simply by not calling show()
+    // window.show();
+
     return app.exec();
 }
