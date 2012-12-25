@@ -4,6 +4,9 @@
 # Makefiles
 Makefile*
 
+# Debug symbols
+*.pdb
+
 # Compiled binaries
 debug/*
 release/*
