@@ -41,16 +41,21 @@
 #define WINDOW_H
 #include <QSystemTrayIcon>
 #include <QDialog>
-class QAction;
-class QCheckBox;
-class QComboBox;
-class QGroupBox;
-class QLabel;
-class QLineEdit;
-class QMenu;
-class QPushButton;
-class QSpinBox;
-class QTextEdit;
+#include <QAction>
+#include <QApplication>
+#include <QCheckBox>
+#include <QCloseEvent>
+#include <QComboBox>
+#include <QGroupBox>
+#include <QLabel>
+#include <QLineEdit>
+#include <QMenu>
+#include <QMessageBox>
+#include <QPushButton>
+#include <QSpinBox>
+#include <QTextEdit>
+#include <QVBoxLayout>
+
 class Window : public QDialog
 {
     Q_OBJECT
